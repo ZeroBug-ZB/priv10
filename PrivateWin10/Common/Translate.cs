@@ -6,6 +6,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Changed:
+ * 
+ * 
+ * Idea:
+ * Spliting Translation.ini file into more files named as iso-2
+ * Auto report missing translations (debug only)
+ * Fallback to EN lang if missing occurs
+ * Auto translate utils/tools (debug only)
+ * Performance checks
+ * Code cleaning
+ * 
+ */
+
 namespace PrivateWin10
 {
     static public class Translate
